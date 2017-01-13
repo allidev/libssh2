@@ -19,4 +19,4 @@ Installation instructions are in:
  - docs/INSTALL_AUTOTOOLS for Autotools
 
 CMake command line
- $ cmake -DENABLE_ZLIB_COMPRESSION=1 ..
+ $ cmake -DENABLE_ZLIB_COMPRESSION=1 -DBUILD_EXAMPLES=OFF -DBUILD_TESTING=OFF ..
